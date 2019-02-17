@@ -4,8 +4,7 @@ $(document).ready(function () {
     var email = "";
     var subject = "";
     var message = "";
- 
- // Initialize Firebase
+
  var config = {
     apiKey: "AIzaSyCo4vrqYzhzfUJYC-D5tTrSkrrCtoI5VLU",
     authDomain: "portfolio-2fdda.firebaseapp.com",
@@ -15,7 +14,7 @@ $(document).ready(function () {
     messagingSenderId: "802646292175"
   };
   firebase.initializeApp(config);
- // Create a variable to reference the database
+
  var database = firebase.database();
 
  database.ref().on("child_added", function (childSnap) {
@@ -26,12 +25,10 @@ $(document).ready(function () {
 
  });    
 
- // Click Button changes what is stored in firebase
  $("#submit").on("click", function(event) {
-   // Prevent the page from refreshing
+
    event.preventDefault();
 
-    // Get inputs
     name = $("#form_name").val().trim();
     email = $("#form_email").val().trim();
     subject = $("#form_subject").val().trim();
@@ -47,8 +44,7 @@ $(document).ready(function () {
 
     console.log(newUser)
     database.ref().push(newUser);
-
-    //clears form  
+ 
     $("#form_name").val("");
     $("#form_email").val("");
     $("#form_subject").val("");    
