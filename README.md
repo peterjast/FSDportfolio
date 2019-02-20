@@ -5,5 +5,5 @@ I then added links to my github, linked in and facebook as well as a downloadabl
 I also connected my contact form to a firebase database.
 For each of my projects featured, I included a link to the repository as well as the deployed project.
 
-https://peterjast.github.io/FullStakesDesign-PeterStakerPortfolio/
+https://peterjast.github.io/FSDportfolio/
 
