@@ -1,3 +1,5 @@
+
+
 $(function () {
 
   'use strict';
@@ -64,9 +66,15 @@ $(function () {
     loop: true,
     mouseDrag: false,
     autoplay: true,
-    smartSpeed: 500
+    smartSpeed: 2000
   });
 
+  /*$('#headerVideoLink').magnificPopup({
+    type:'inline',
+    midClick: true,
+    isActive: true
+  });
+*/
   $('.portfolio .gallery').magnificPopup({
     delegate: '.popup-img',
     type: 'image',
