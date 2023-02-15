@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #515A5F;
+  color: #EEE;
   line-height: 1.7;
   margin: 0;
 }
@@ -477,12 +477,13 @@ p {
 -----------------------------------------------------------------*/
 .about {
   overflow: hidden;
+  background: #0b0b10;
 }
 .about .section-head {
   margin-bottom: 20px;
 }
 .about .section-head h3 {
-  color: #1F2833;
+  color: #fff;
   margin-bottom: 5px;
 }
 .about .intro .details {
@@ -527,7 +528,7 @@ p {
   right: 0;
   top: -23px;
   font-size: 12px;
-  color: #757575;
+  color: #EEE;
 }
 
 /*-----------------------------------------------------------------
@@ -537,8 +538,8 @@ p {
 [ 05 - Start Services ]
 -----------------------------------------------------------------*/
 .services {
-  color: #1F2833;
-  background: #f5f5f5;
+  background: #0b0b10;
+  color: #f5f5f5;
   overflow: hidden;
 }
 .services .item {
@@ -606,10 +607,15 @@ p {
 }
 
 .portfolio {
-  color: #1F2833;
-  background: #f5f5f5;
+  color: #fff;
+  background: #0b0b10;
   overflow: hidden;
 }
+
+.portfolio .item-img .overlay-info h5 {
+    color: #0b0b10;
+}
+
 .portfolio .filtering {
   color: #EEE;
   margin-bottom: 50px;
@@ -771,8 +777,9 @@ p {
 [ 10 - Start Contact ]
 -----------------------------------------------------------------*/
 .contact {
-  color: #1F2833;
+  color: #fff;
   padding-top: 100px;
+  background: #0b0b10;
   overflow: hidden;
 }
 .contact .form input,
@@ -780,7 +787,7 @@ p {
   width: 100%;
   padding: 10px;
   border: 1px solid #EEE;
-  background: #f5f5f5;
+  background: #0b0b10;
   font-size: 14px;
   border-radius: 5px;
   -webkit-box-shadow: none;
@@ -825,7 +832,7 @@ p {
 }
 .contact .contact-info:before, .contact .contact-info:after {
   content: "";
-  background: #EEE;
+  background: #0B0C10;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -974,10 +981,13 @@ p {
 }
 
 .about-sub {
-  color: #515A5F;
+  color: #EEE;
 }
 /*-----------------------------------------------------------------
 [ End Responsive ]
 -----------------------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
+img {
+  border: 1px solid #EEE;
+}

@@ -64,9 +64,11 @@ $(function () {
   $('.testimonials .owl-carousel').owlCarousel({
     items: 1,
     loop: true,
-    mouseDrag: false,
+    mouseDrag: true,
     autoplay: true,
-    smartSpeed: 2000
+    smartSpeed: 2000,
+    autoplayHoverPause: true,
+    autoplayTimeout: 10000
   });
 
   /*$('#headerVideoLink').magnificPopup({
