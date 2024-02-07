@@ -1,7 +1,7 @@
-# Full Stakes Design - Peter Staker
-This is a one page, mobile responsive layout with a clean aesthetic and modern animations.
-I added links to my github, linkedin and facebook as well as a downloadable pdf file containing my resume. 
-For each of my projects featured, I included a link to the repository as well as the deployed project.
+# Peter Staker
+This is a one page, mobile responsive portfolio with a clean aesthetic and modern animations.
+Links to my github and linkedin as well as a downloadable pdf file containing my resume are featured. 
+Learn a bit about me and check out some projects I've worked on.
 
 https://www.peterstaker.com/
 
